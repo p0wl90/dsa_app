@@ -46,27 +46,31 @@ class _HomeViewState extends State<HomeView> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            // Statischer Text, der Nutzern die App erklärt
-            const Text(
-              'Klicke den Button, um einen zufälligen Kulturschaffenden anzuzeigen.',
-              style: TextStyle(fontSize: 18),
-            ),
-            // Eine Box, um Abstand zu halten zum nächsten Widget
-            const SizedBox(height: 20),
-            // Ein Button mit dem Text Zufall. Wenn man ihn klickt, wird _selectKulturschaffender oben aufgerufen
-            FilledButton(
-              onPressed: _selectKulturschaffender,
-              child: Text('Zufall'),
-            ),
-            // Eine Box, um Abstand zu halten zum nächsten Widget
-            const SizedBox(height: 20),
-            // zeigt den aktuell ausgewählten kulturschaffenden an
-            KulturschaffenderDetails(_selectedKulturschaffender),
-          ],
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              // Statischer Text, der Nutzern die App erklärt
+              const Text(
+                'Klicke den Button, um einen zufälligen Kulturschaffenden anzuzeigen.',
+                style: TextStyle(fontSize: 18),
+              ),
+              // Eine Box, um Abstand zu halten zum nächsten Widget
+              const SizedBox(height: 20),
+              // Ein Button mit dem Text Zufall. Wenn man ihn klickt, wird _selectKulturschaffender oben aufgerufen
+              FilledButton(
+                onPressed: _selectKulturschaffender,
+                child: Text('Zufall'),
+              ),
+              // Eine Box, um Abstand zu halten zum nächsten Widget
+              const SizedBox(height: 20),
+              // zeigt den aktuell ausgewählten kulturschaffenden an
+              KulturschaffenderDetails(_selectedKulturschaffender),
+            ],
+          ),
         ),
       ),
     );
