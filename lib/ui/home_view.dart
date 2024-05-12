@@ -1,13 +1,14 @@
-import 'dart:math';
-
 import 'package:dsa_app/model/kulturschaffende.dart';
-import 'package:dsa_app/services/csv_parser.dart';
+import 'package:dsa_app/services/dsa_service.dart';
 import 'package:dsa_app/ui/kulturschaffender_details.dart';
 import 'package:flutter/material.dart';
 
 // NOTES
 // - Datenformat noch technischer (Gewicht nicht als String,...)
 
+/**
+ * Unsere Startseite 
+ */
 class HomeView extends StatefulWidget {
   const HomeView({super.key, required this.title});
 
@@ -18,28 +19,22 @@ class HomeView extends StatefulWidget {
 }
 
 class _HomeViewState extends State<HomeView> {
-  List<Kulturschaffender> kulturschaffende = [];
-  Kulturschaffender? selectedKulturschaffender = null;
+  Kulturschaffender? _selectedKulturschaffender = null;
+  DsaService dsaService = DsaService();
 
   @override
   void initState() {
     super.initState();
-    initAsync();
+    dsaService.init();
   }
 
-  Future<void> initAsync() async {
-    for (var csvMap in await DsaCsvParser()
-        .loadCsvAsMapList('csv/0000_kulturschaffende.csv')) {
-      kulturschaffende.add(Kulturschaffender.fromCsvMap(csvMap));
-    }
-  }
-
-  void selectRandomKulturschaffenden() {
-    print(kulturschaffende.isEmpty);
-    if (kulturschaffende.isNotEmpty) {
-      var randomInt = Random().nextInt(kulturschaffende.length - 1);
+  /**
+   * Holt sich einen zufälligen Kulturschaffenden aus dem DSA Service und setzt ihn als den aktuell anzuzeigenden
+   */
+  void _selectKulturschaffender() {
+    if (dsaService.isInitialized()) {
       setState(() {
-        selectedKulturschaffender = kulturschaffende[randomInt];
+        _selectedKulturschaffender = dsaService.selectRandomKulturschaffender();
       });
     }
   }
@@ -55,20 +50,22 @@ class _HomeViewState extends State<HomeView> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            // Statischer Text, der Nutzern die App erklärt
             const Text(
               'Klicke den Button, um einen zufälligen Kulturschaffenden anzuzeigen.',
               style: TextStyle(fontSize: 18),
             ),
+            // Eine Box, um Abstand zu halten zum nächsten Widget
             const SizedBox(height: 20),
+            // Ein Button mit dem Text Zufall. Wenn man ihn klickt, wird _selectKulturschaffender oben aufgerufen
             FilledButton(
-              onPressed: selectRandomKulturschaffenden,
+              onPressed: _selectKulturschaffender,
               child: Text('Zufall'),
             ),
-            if (selectedKulturschaffender != null)
-              Padding(
-                padding: const EdgeInsets.only(top: 20.0),
-                child: KulturschaffenderDetails(selectedKulturschaffender!),
-              ),
+            // Eine Box, um Abstand zu halten zum nächsten Widget
+            const SizedBox(height: 20),
+            // zeigt den aktuell ausgewählten kulturschaffenden an
+            KulturschaffenderDetails(_selectedKulturschaffender),
           ],
         ),
       ),

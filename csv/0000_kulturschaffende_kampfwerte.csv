@@ -1,0 +1,102 @@
+ID,ID_f,Name,Erf.,INI,LeP,RS,AT,TP,PA,DK,"FK // TP",MR,GS,AuP,AsP,Sonderfertigkeiten
+1,1,Achaz,unerfahren,10+W6,24,"2 (nRS)",11,"Schwanzschalg: 1W6 TP(A), Fäuste: 1W6 TP(A)",11,"Schwanzschalg: H, Fäuste: H",10,6,8,24,," Schwanzschlag"
+2,1,Achaz-Kriegerin,erfahren,12+W6,27,"2 (nRS)",14,"Schwanzschalg: 1W6 TP(A), Fäuste: 1W6 TP(A)",12,"Schwanzschalg: H, Fäuste: H",14,7,8,28,," Schwanzschlag, Aufmerksamkeit, Ausweichen I (PA 10), Wuchtschlag"
+3,1,Achaz-Veteranin,Veteran,18+W6,32,"2 (nRS)",17,"Schwanzschalg: 1W6+2 TP(A), Fäuste: 1W6+1 TP(A)",16,"Schwanzschalg: H, Fäuste: H",18,7,9,34,," Schwanzschlag, Aufmerksamkeit, Ausweichen I (PA 10), Wuchtschlag, Kampfreflexe, Sturmangriff, Waffenloser Kampfstil: Hruruzat (Tritte)"
+4,2,Affenmensch,unerfahren,8+W6,27,"je nach Rüstung",11,,10,,0,3,8,28,,keine
+5,2,Affenmenschen-Krieger,erfahren,9+W6,33,"je nach Rüstung",14,,12,,12,4,8,34,,Wuchtschlag
+6,2,Affenmenschen-Veteranin,Veteran,13+W6,37,"je nach Rüstung",17,,16,,18,5,9,40,,"Wuchtschlag, Aufmerksamkeit, Ausweichen I (PA 11), Kampfreflexe, Niederwerfen"
+7,3,Nachtelf,unerfahren," 10+W6",21,"2 (Vollkörperrüstung BE 2)",10,,11,,12,7,8,25,30,"Finte, Wuchtschlag"
+8,3,Nachtelfen-Krieger,erfahren," 10+W6",23,"3 (Vollkörperrüstung BE 2)",14,,13,,18,7,9,37,32,"Finte, Wuchtschlag, Ausfall, Aufmerksamkeit, Ausweichen I (PA 10), Binden, Schnellladen"
+9,3,Nachtelfen-Veteranin,Veteran," 11+W6",27,"3 (Vollkörperrüstung BE 2)",19,,15,,25,8,9,30,35,"Finte, Wuchtschlag, Ausfall, Aufmerksamkeit, Ausweichen I (PA 10), Binden, Schnellladen, Ausweichen II (PA 14), Gegenhalten, Kampfreflexe, Klingensturm, Meisterparade, Scharfschütze"
+10,4,Elf,unerfahren,10+W6,21,"je nach Rüstung (nicht-metallene bevorzugt)",11,,10,,9,4,8,26,28,keine
+11,4,Elfen-Kriegerin,erfahren,12+W6,28,"je nach Rüstung (nicht-metallene bevorzugt)",13,,13,,15,6,8,35,34,"Aufmerksamkeit, Ausweichen I (PA 11),  Finte, Scharfschütze"
+12,4,Elfen-Veteranin,Veteran,18+W6,33,"je nach Rüstung (nicht-metallene bevorzugt)",17,,16,,23,8,9,39,42,"Aufmerksamkeit, Ausweichen I (PA 11),  Finte, Scharfschütze, Ausweichen II (PA 15), Gezielter Stich, Kampfreflexe, Meisterschütze, Schnellladen"
+13,5,Gestaltwandler,undefiniert," 9+W6",35,"1 (nRS) + ggf. Rüstung","Ringen: 15, Waffe: 12*",,12,,0,6,8,60,,"Hinterhalt (35), Gezielter Angriff, Würgeangriff (siehe: Schwitzkasten)"
+14,6,Goblin-Schurke,unerfahren,8+W6,22,"1 (nRS) + ggf. Rüstung",10,,8,,9,1,8,30,,keine
+15,6,Goblins-Krieger,erfahren,13+W6,27,"1 (nRS) + ggf. Rüstung",12,,10,,15,3,9,35,,"Ausweichen I (PA 10), Kampfreflexe"
+16,6,Goblins-Veteranin,Veteran,15+W6,33,"1 (nRS) + ggf. Rüstung",16,,14,,20,5,9,40,,"Ausweichen I (PA 10), Kampfreflexe, Ausweichen II (PA 14), Reiterkampf, Scharfschütze"
+17,7,Grolm,unerfahren,7+W6,18,"je nach Rüstung",7,,8,,0,6,6,30,15,keine
+18,7,Grolme-Kriegerin,erfahren,8+W6,23,"je nach Rüstung",8,,9,,0,9,6,35,25,keine
+19,7,Grolm-Veteran,Veteran,9+W6,28,"je nach Rüstung",9,,10,,0,12,6,40,35,"Ausweichen I (PA 10)"
+20,8,Halbelfin,unerfahren,10+W6,23,"je nach Rüstung (nicht-metallene bevorzugt)",11,,10,,0,2,7,26,10,keine
+21,8,Halbelfen-Kriegerin,erfahren,11+W6,31,"je nach Rüstung (nicht-metallene bevorzugt)",13,,13,,13,4,8,35,17,"Aufmerksamkeit, Ausweichen I (PA 11), Finte, Scharfschütze"
+22,8,Halbelfen-Veteran,Veteran,17+W6,36,"je nach Rüstung (nicht-metallene bevorzugt)",17,,16,,27,6,8,39,22,"Aufmerksamkeit, Ausweichen I (PA 11), Finte, Scharfschütze, Ausweichen II (PA 15), Gezielter Stich, Kampfreflexe, Meisterschütze, Schnellladen"
+23,9,Halbork,unerfahren,10+W6,28,"je nach Rüstung",12,,10,,9,0,8,32,,keine
+24,9,Halbork-Krieger,erfahren,13+W6,36,"je nach Rüstung",14,,12,,13,3,8,40,,"Aufmerksamkeit, Wuchtschlag"
+25,9,Halbork-Veteranin,Veteran,17+W6,41,"je nach Rüstung",17,,16,,19,4,8,42,,"Aufmerksamkeit, Wuchtschlag, Kampfreflexe, Niederwerfen, Rüstungsgewöhnung I, Überrennen"
+26,10,Hummerier-Kriger,erfahren,10+W6,39,5,"Scheren: 12, Waffe: 14","Scheren: 2W+2","Scheren: 8, Waffe: 10",,0,6,"3 (Land), 6 8Wasser)",27,,"2 Aktionen pro KR, je eine für Schere und Waffe, Wuchtschlag, Niederwerfen, Doppelangriff, Gegenhalten"
+27,10,"Hummerier Daimoniden-Veteran",Daimoniden-Veteran,11+W6,43,6,"Scheren: 14, Waffe: 17","Scheren: 2W+2","Scheren: 9, Waffe: 12",,0,6,"3 (Land), 6 8Wasser)",32,,"2 Aktionen pro KR, je eine für Schere und Waffe, Wuchtschlag, Niederwerfen, Doppelangriff, Gegenhalten,Hammerschlag, Schildspalter"
+28,11,Krakonier,unerfahren,7+W6,27,"3 (nRS) + ggf. Rüstung",11,,11,,0,7,6,28,,"Kampf unter/im Wasser"
+29,11,Krakonier-Krieger,erfahren,11+W6,30,"3 (nRS) + ggf. Rüstung",15,,13,,15,9,6,31,,"Kampf unter/im Wasser, Aufmerksamkeit, Wuchtschlag"
+30,11,Krakonier-Veteran,Veteran,15+W6,37,"3 (nRS) + ggf. Rüstung",17,,16,,19,11,7,40,,"Kampf unter/im Wasser, Aufmerksamkeit, Wuchtschlag, Kampfreflexe, Niederschlagen"
+31,12,Leviatan,erfahren," 8+1W6",70,3,15,"Klauen: 2W+3, Schwanz: 1W+4, Axt: 3W+5, Speer: 2W+6",12,"Klauen: HN, Schwanz: N, Axt: NS, Speer: SP",0,"10 – 15 / 10","2 / 5 7 (Kriechen/Schwimmen/Springen)",70,65,"Finte, Gezielter Stich, Wuchtschlag, Niederwerfen (7, Schwanzangriff gegen Beine), sehr großer Gegner, Überrennen**"
+32,13,"Blaue Mahre",erfahren,11+W6,33,"3 (nRS) + Rüstung",15,,12,,0,"7 - 12",8,50,,"Aufmerksamkeit, Ausweichen I und II (PA 14), Finte, Gezielter Stich"
+33,14,Marus,unerfahren,10+W6,28,"2 (nRS) + Rüstung",13,,9,,0,7,8,32,,"Biss, Schwanzschlag"
+34,14,Marus-Kriegerin,erfahren,11+W6,34,"3 (nRS) + Rüstung",16,,13,,0,8,8,36,,"Biss, Schwanzschlag, Aufmerksamkeit, Befreiungsschlag,  Wuchtschlag "
+35,14,Marus-Veteran,Veteran,18+W6,40,"4 (nRS) + Rüstung",18,,15,,0,9,9,43,,"Biss, Schwanzschlag, Aufmerksamkeit, Befreiungsschlag,  Wuchtschlag ,  Beidhändiger  Kampf  I,  Doppelangriff, Kampfreflexe, Rüstungsgewöhung I, Waffenloser Kampfstil: Hruruzat (Beinarbeit, Sprungtritt, Hoher Tritt)"
+36,15,"Mittelländer",unerfahren,9+W6,25,"je nach Rüstung",11,,10,,0,2,8,25,,keine
+37,15,"Mittelländer-Kriegerin",erfahren,11+W6,34,"je nach Rüstung",14,,12,,12,4,8,35,,"Aufmerksamkeit, Finte oder Wuchtschlag"
+38,15,"Mittelländer-Veteranin",Veteran,17+W6,41,"je nach Rüstung",17,,16,,18,6,9,42,,"Aufmerksamkeit, Finte oder Wuchtschlag, Ausfall und Gezielter Stich (falls Finte) oder Hammerschlag und Nie- derwerfen, Ausweichen I (PA 12), Kampfreflexe, Rüstungsgewöhnung I"
+39,16,Necker,unerfahren,11+W6,22,0,9,,11,,0,7,8,24,20,"Kampf im/unter Wasser"
+40,16,Necker-Kriegerin,erfahren,13+W6,26,0,12,,12,,13,8,8,28,24,"Kampf im/unter Wasser, Aufmerksamkeit, Ausweichen II (PA 14), Kampfreflexe"
+41,16,Necker-Veteran,Veteran,19+W6,30,0,15,,17,,16,9,9,34,30,"Kampf im/unter Wasser, Aufmerksamkeit, Ausweichen II (PA 14), Kampfreflexe"
+42,17,Nivese,unerfahren,9+W6,25,"je nach Rüstung",10,,11,,10,1,8,33,,keine
+43,17,Nivesen-Kriegerin,erfahren,11+W6,32,"je nach Rüstung",13,,13,,16,4,8,41,,"Aufmerksamkeit,  Finte  oder  Meisterparade oder Scharfschütze"
+44,17,Nivesen-Veteranin,Veteran,14+W6,39,"je nach Rüstung",16,,16,,23,5,9,47,,"Aufmerksamkeit,  Finte  oder  Meisterparade oder Scharfschütze, Gezielter Stich oder Gegenhalten oder Meisterschütze"
+45,18,Norbardenin,unerfahren,9+W6,26,"je nach Rüstung",11,,10,,0,2,8,27,,keine
+46,18,Norbarden-Krieger,erfahren,11+W6,34,"je nach Rüstung",14,,12,,13,4,8,36,,"Aufmerksamkeit, Ausweichen I (PA 11), Wuchtschlag, Waffenlos: Bornländisch (Block, Griff, Knie, Schwitzkasten)"
+47,18,Norbarden-Vetranin,Veteran,17+W6,41,"je nach Rüstung",17,,16,,17,6,9,42,,"Aufmerksamkeit, Ausweichen I (PA 11), Wuchtschlag, Waffenlos: Bornländisch (Block, Griff, Knie, Schwitzkasten), Ausweichen II (PA 15), Kampfreflexe, Rüstungsgew. I"
+48,19,Oger,unerfahren,"12 + W6",45,"2 (nRS) + ggf. Rüstung (selten)",12,"Faust (2W6+2 TP(A)), Keule (3W6+3, WM 0/-3)",7," Faust: HN, Keule: N",0,1,10,40,,"Gerade, Schmetterschlag, Wuchtschlag, Niederwerfen"
+49,19,Oger-Kriegerin,erfahren,"12 + W6",45,"3 (nRS) + ggf. Rüstung (selten)",16,"Faust (2W6+5 TP(A)), Keule (3W6+4, WM 0/-3)",14," Faust: HN, Keule: N",0,8,10,40,,"Gerade, Schmetterschlag, Wuchtschlag, Niederwerfen"
+50,20,Ork-Schurke,unerfahren,10+W6,30,"1 (nRS) + Rüstung",13,,9,,10,0,8,35,,Biss
+51,20,Ork-Krieger,erfahren,12+W6,39,"1 (nRS) + Rüstung",15,,11,,14,1,8,44,,"Biss, Niederwerfen, Überrennen, Wuchtschlag"
+52,20,Ork-Veteran,Veteran,18+W6,45,"1 (nRS) + Rüstung",19,,16,,20,4,8,51,,"Biss, Niederwerfen, Überrennen, Wuchtschlag, Aufmerksamkeit, Gegenhalten, Kampfreflexe, Meisterparade, Rüstungsgewöhnung I"
+53,21,Riesen,erfahren,12+1W6,150,"5 (nRS) + ggf. Rüstung (selten)","12 - 16"," Faust 3W+8, kleiner Baum: 1W20+10","8 - 14","Faust: HNS, kleiner Baum: NSP","13 // Findlinge W20+5, Bäume: mehrere W20","6–25 / 25","8 - 12",65,,keine
+54,22,Risso,unerfahren,10+W6,22,"1 (nRS) + Rüstung",10,,9,,0,4,"9 / 7 (Wasser/Land)",28,,"Kampf unter Wasser"
+55,22,Risso-Kriegerin,erfahren,11+W6,27,"2 (nRS) + Rüstung",13,,12,,0,6,"9 / 7 (Wasser/Land)",34,,"Kampf unter Wasser, Aufmerksamkeit, Finte"
+56,22,Risso-Veteran,Veteran,16+W6,32,"3 (nRS) + Rüstung",17,,14,,0,8,"9 / 7 (Wasser/Land)",40,,"Kampf unter Wasser, Aufmerksamkeit, Finte, Gezielter Stich, Kampfreflexe, Überrennen (auch unter Wasser)"
+57,23,Thorwalerin,unerfahren,9+W6,28,"je nach Rüstung",12,,10,,8,1,8,28,,keine
+58,23,Thorwaler-Krieger,erfahren,12+W6,36,"je nach Rüstung",15,,11,,13,4,8,37,,"Aufmerksamkeit, Linkshändig, Schildkampf I, Waffenlos: Hammerfaust (Auspendeln, Block, Gerade, Schwinger), Wuchtschlag"
+59,23,Thorwaler-Veteranin,Veteran,17+W6,42,"je nach Rüstung",18,,15,,18,6,9,43,,"Aufmerksamkeit, Linkshändig, Schildkampf I, Waffenlos: Hammerfaust (Auspendeln, Block, Gerade, Schwinger), Wuchtschlag, Hammerschlag, Kampfreflexe, Niederwerfen, Rüstungsgewöhnung I, Schildkampf II"
+60,24,Troll,unerfahren,8+W6,60,"2 (nRS) + Rüstung",13,"Faust: 2W6+3, Keule: 3W6+4 (WM 0/–3), Axt: 4W6+4 TP (WM 0/–2)",11,"Faust: HN, Keule: NS, Axt: NS",0,"5 – 10 / 10",7,120,,"Gerade, Wuchtschlag"
+61,24,Troll-Kriegerin,erfahren,11+W6,70,"3 (nRS) + Rüstung",15,"Faust: 2W6+5, Keule: 3W6+5 (WM 0/–3), Axt: 4W6+5 TP (WM 0/–2)",12,"Faust: HN, Keule: NS, Axt: NS",0,"5 – 10 / 10",7,120,,"Gerade, Wuchtschlag, Schmetterschlag, Bein- arbeit, Auspendeln, Aufmerksamkeit, Niederwerfen"
+62,24,Trolle-Veteran,Veteran,15+W6,80,"4 (nRS) + Rüstung",18,"Faust: 2W6+7, Keule: 3W6+7 (WM 0/–3), Axt: 4W6+6 TP (WM 0/–2)",16,"Faust: HN, Keule: NS, Axt: NS",0,"5 – 10 / 10",7,120,,"Gerade, Wuchtschlag, Schmetterschlag, Bein- arbeit, Auspendeln, Aufmerksamkeit, Niederwerfen, Befreiungs- schlag, Kampfreflexe, Sturmangriff"
+63,25,Trollzackerin,unerfahren,10+W6,28,"je nach Rüstung",13,,9,,0,1,8,35,,Wuchtschlag
+64,25,Trollzacker-Kriger,erfahren,12+W6,37,"je nach Rüstung",15,,11,,11,4,8,43,,"Wuchtschlag, Aufmerksamkeit, Niederwerfen"
+65,25,Trollzacker-Veteran,Veteran,18+W6,43,"je nach Rüstung",19,,14,,16,6,9,50,,"Wuchtschlag, Aufmerksamkeit, Niederwerfen, Befreiungsschlag, Hammerschlag, Kampfreflexe, Niederwerfen, Rüstungsgewöhnung I"
+66,26,Tulamide,unerfahren,9+W6,25,"je nach Rüstung",11,,10,,0,2,8,25,,keine
+67,26,Tulamiden-Krieger,erfahren,11+W6,34,"je nach Rüstung",14,,12,,12,4,8,35,,"Aufmerksamkeit, Ausweichen I (PA 11), Finte oder Wuchtschlag, Waffenlos: Unauer Schule"
+68,26,Tulamiden-Veteranin,Veteran,18+W6,41,"je nach Rüstung",17,,16,,17,6,9,42,,"Aufmerksamkeit, Ausweichen I (PA 11), Finte oder Wuchtschlag, Waffenlos: Unauer Schule"
+69,27,Utulus,unerfahren,10+W6,27,"je nach Rüstung",11,,11,,0,0,8,28,,keine
+70,27,Utulus-Kriegerin,erfahren,12+W6,35,"je nach Rüstung",14,,12,,12,3,8,36,,"Aufmerksamkeit, Ausweichen I (PA 11), Finte oder Wuchtschlag, Waffenlos: Hruruzat"
+71,27,Utulus-Veteran,Veteran,18+W6,41,"je nach Rüstung",17,,16,,17,4,9,42,,"Aufmerksamkeit, Ausweichen I (PA 11), Finte oder Wuchtschlag, Waffenlos: Hruruzat, Ausweichen II und III (PA 18), Kampfreflexe"
+72,28,Waldmenschen,unerfahren,10+W6,22,"je nach Rüstung (selten)",11,,10,,0,0,8,28,,keine
+73,28,Waldmenschen-Krieger,erfahren,12+W6,28,"je nach Rüstung (selten)",14,,12,,12,2,8,37,,"Aufmerksamkeit, Ausweichen I (PA 11), Finte oder Wuchtschlag, Waffenlos: Hruruzat"
+74,28,Waldmenschen-Veteranin,Veteran,18+W6,35,"je nach Rüstung (selten)",17,,16,,17,4,9,42,,"Aufmerksamkeit, Ausweichen I (PA 11), Finte oder Wuchtschlag, Waffenlos: Hruruzat, Ausweichen II und III (PA 18)"
+75,29,"Wilde Zwergin",unerfahren,9+W6,27,"je nach Rüstung",11,,10,,0,2,5,30,,keine
+76,29,"Wilde Zwergen-Kriegerin",erfahren,11+W6,34,"je nach Rüstung",13,,12,,13,4,6,34,,Wuchtschlag
+77,29,"Wilde Zwergen-Veteranin",Veteran,13+W6,40,"je nach Rüstung",16,,15,,19,5,6,41,,"Wuchtschlag, Aufmerksamkeit, Rüstungsgewöhnung I"
+78,30,Yetis,erfahren,10+W6,42,"3 (nRS)",13,"Faust: 2W+4 TP(A), Keule: 2W+7",9,"Faust: DK N, Keule DK N",0,"10 / 12",10,100,,"Wuchtschlag, Niederwerfen"
+79,31,Zilitin,unerfahren,10+W6,20,"2 (nRS)",9,,10,,0,5,"7 (Wasser), 8 (Land)",28,,"Kampf unter/im Wasser, Schwanzschlag"
+80,31,Ziliten-Krieger,erfahren,11+W6,27,"2 (nRS)",13,,13,,0,7,"7 (Wasser), 8 (Land)",34,,"Kampf unter/im Wasser, Schwanzschlag, Aufmerksamkeit, Ausweichen I und II (PA 14)"
+81,32,Zwergin,unerfahren,10+W6,30,"je nach Rüstung",11,,10,,10,4,5,31,,keine
+82,32,Zwergen-Kriegerin,erfahren,11+W6,36,"je nach Rüstung",14,,12,,13,5,6,35,,"Aufmerksamkeit, Rüstungsgewöhnung I, Wuchtschlag"
+83,32,Zwergen-Veteran,Veteran,15+W6,45,"je nach Rüstung",18,,15,,19,7,6,45,,"Aufmerksamkeit, Rüstungsgewöhnung I, Wuchtschlag, Hammerschlag, Kampfreflexe, Niederwerfen, Rüstungsgewöhnung II und III, Sturmangriff"
+84,33,Zyklop,jung,8+W6,50,"1 (nRS) + Rüstung",15,,11,,"20 (Stein) // 3W+3 bis 3W+20","8 – 15 / 13",10,75,,"Gerade, Wuchtschlag"
+85,33,Zyklopen-Kriegerin,mittelalt,10+W6,60,"2 (nRS) + Rüstung",17,,12,,"20 (Stein) // 3W+3 bis 3W+20","8 – 15 / 13",10,75,,"Gerade, Wuchtschlag, Schmetterschlag, Niederwerfen"
+86,33,Zyklopen-Veteran,alt,12+W6,70,"3 (nRS) + Rüstung",18,,14,,"20 (Stein) // 3W+3 bis 3W+20","8 – 15 / 13",10,75,,"Gerade, Wuchtschlag, Schmetterschlag, Niederwerfen, Befreiungsschlag"
+87,34,Streitoger,erfahren,"10 + W6",46,"3 (nRS) + 3 orkische Rüstung (BE3)",20,"Streitkolben: TP 3W+6; Faust (2W6+5 TP(A))",14,"Streitkolben: NS, Faust: HN",0,"1 / 8",10,50,,"Gerade, Schmetterschlag, Wuchtschlag, Niederwerfen, Aufmerksamkeit, Hammerschlag, Kampfreflexe"
+88,35,Schwarzogerin,unerfahren,"12 + W6",45,"2 (nRS) + ggf. Rüstung (selten)",12,"Faust (2W6+3 TP(A)), Keule: 3W6+2 (WM 0/-3)",7," Faust: HN, Keule: N",0,"1 / 8",10,40,,"Gerade, Schmetterschlag, Wuchtschlag, Niederwerfen"
+89,35,Schwarzoger-Krieger,erfahren,"14 + W6",45,"3 (nRS) + ggf. Rüstung (selten)",16,"Faust (2W6+5 TP(A)), Keule (3W6+4, WM 0/-3)",14," Faust: HN, Keule: N",0,"1 / 8",10,40,,"Gerade, Schmetterschlag, Wuchtschlag, Niederwerfen"
+90,36,Holberkerin,unerfahren,8+W6,26,"je nach Rüstung",11,,9,,0,1,7,31,8,keine
+91,36,Holberker-Krieger,erfahren,11+W6,34,"je nach Rüstung",13,,12,,12,3,8,35,14,"Aufmerksamkeit, Finte oder Wuchtschlag"
+92,36,Holberker-Veteran,Veteran,13+W6,39,"je nach Rüstung",16,,15,,17,5,9,45,19,"Aufmerksamkeit, Finte oder Wuchtschlag, Ausweichen I (PA 11), Gezielter Stich oder Hammerschlag"
+93,37,"Riese Adawadt","Besonderer Veteran",12+W6,175,"5 (nRS) + ggf. Rüstung (selten)",15," Faust: 3W+8, kleiner Baum: 1W20+5",12,"Faust: HNS, kleiner Baum: NSP","13 // Findlinge W20+5, Bäume: mehrere W20","12 / 25",5,65,,keine
+94,38,"Riese Felsknacker","Besonderer Veteran",13+W6,165,"5 (nRS) + ggf. Rüstung (selten)",16," Faust: 3W+8, kleiner Baum: 1W20+6",12,"Faust: HNS, kleiner Baum: NSP","13 // Findlinge W20+5, Bäume: mehrere W20","5 / 25",8,100,,keine
+95,39,"Riese Glantuban","Besonderer Veteran",12+W6,180,"5 (nRS) + ggf. Rüstung (selten)",16," Faust: 3W+8, kleiner Baum: 1W20+7",14,"Faust: HNS, kleiner Baum: NSP","13 // Findlinge W20+5, Bäume: mehrere W20","25 / 25",11,110,,"vergessene Zaubersprüche"
+96,40,"Riese Milzenis","Besonderer Veteran",10+W6,130,"5 (nRS) + ggf. Rüstung (selten)",13," Faust: 3W+8, kleiner Baum: 1W20+8",11,"Faust: HNS, kleiner Baum: NSP","13 // Findlinge W20+5, Bäume: mehrere W20","25 / 8",9,150,,"Brüllen, dass sich die Balken biegen"
+97,41,"Riese Neunfinger","Besonderer Veteran",10+W6,130,"5 (nRS) + ggf. Rüstung (selten)",13," Faust: 3W+8, kleiner Baum: 1W20+9",11,"Faust: HNS, kleiner Baum: NSP","13 // Findlinge W20+5, Bäume: mehrere W20","25 / 8",9,150,,keine
+98,42,"Riese Orkfresser","Besonderer Veteran",10+W6,160,"5 (nRS) + ggf. Rüstung (selten)",16," Faust: 3W+8, kleiner Baum: 1W20+10",11,"Faust: HNS, kleiner Baum: NSP","13 // Findlinge W20+5, Bäume: mehrere W20","25 / 8",10,180,,keine
+99,43,Schneegoblin-Schurke,unerfahren,8+W6,22,"1 (nRS) + ggf. Rüstung",10,,8,,9,1,8,30,,keine
+100,43,Schneegoblin-Krieger,erfahren,13+W6,27,"1 (nRS) + ggf. Rüstung",12,,10,,15,3,9,35,,"Ausweichen I (PA 10), Kampfreflexe"
+101,43,Schneegoblin-Veteran,Veteran,15+W6,33,"1 (nRS) + ggf. Rüstung",16,,14,,20,5,9,40,,"Ausweichen I (PA 10), Kampfreflexe, Ausweichen II (PA 14), Reiterkampf, Scharfschütze"

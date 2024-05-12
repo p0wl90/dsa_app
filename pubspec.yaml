@@ -59,4 +59,5 @@ flutter:
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
   assets:
-    - csv/0000_kulturschaffende.csv
+    - csv/0000_kulturschaffende_beschreibung.csv
+    - csv/0000_kulturschaffende_kampfwerte.csv
