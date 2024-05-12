@@ -22,8 +22,15 @@ class KulturschaffenderDetails extends StatelessWidget {
         Text('Verbreitung: ${kulturschaffender!.verbreitung}'),
         Text('Größe: ${kulturschaffender!.groesse}'),
         Text('Eigenschaften: ${kulturschaffender!.eigenschaften}'),
-        Text('Name: ${kulturschaffender!.name}'),
-        Text('Name: ${kulturschaffender!.name}'),
+        Text('Vor- und Nachteile: ${kulturschaffender!.prosCons}'),
+        Text('Typische Waffe: ${kulturschaffender!.typischeWaffe}'),
+        Text('Typische Rüstung: ${kulturschaffender!.typischeRuestung}'),
+        Text('Magie: ${kulturschaffender!.magie}'),
+        Text('Besonderheiten: ${kulturschaffender!.besonderheiten}'),
+        Text('Zusätzliche Informationen: ${kulturschaffender!.zusatzinfos}'),
+        Text(
+            'Veränderung nach Herkunft: ${kulturschaffender!.veraenderungNachHerkunft}'),
+        Text('Quelle: ${kulturschaffender!.quelle}'),
       ],
     );
   }
