@@ -18,19 +18,97 @@ class KulturschaffenderDetails extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Text('Name: ${kulturschaffender!.name}'),
-        Text('Verbreitung: ${kulturschaffender!.verbreitung}'),
-        Text('Größe: ${kulturschaffender!.groesse}'),
-        Text('Eigenschaften: ${kulturschaffender!.eigenschaften}'),
-        Text('Vor- und Nachteile: ${kulturschaffender!.prosCons}'),
-        Text('Typische Waffe: ${kulturschaffender!.typischeWaffe}'),
-        Text('Typische Rüstung: ${kulturschaffender!.typischeRuestung}'),
-        Text('Magie: ${kulturschaffender!.magie}'),
-        Text('Besonderheiten: ${kulturschaffender!.besonderheiten}'),
-        Text('Zusätzliche Informationen: ${kulturschaffender!.zusatzinfos}'),
-        Text(
-            'Veränderung nach Herkunft: ${kulturschaffender!.veraenderungNachHerkunft}'),
-        Text('Quelle: ${kulturschaffender!.quelle}'),
+        SizedBox(height: 10),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Name: ',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            Text(kulturschaffender!.name),
+          ],
+        ),
+        SizedBox(height: 10),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text(
+            'Verbreitung: ',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          Text(kulturschaffender!.verbreitung),
+        ]),
+        SizedBox(height: 10),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text(
+            'Größe: ',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          Text(kulturschaffender!.groesse),
+        ]),
+        SizedBox(height: 10),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text(
+            'Eigenschaften: ',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          Text(kulturschaffender!.eigenschaften),
+        ]),
+        SizedBox(height: 10),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text(
+            'Vor- und Nachteile: ',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          Text(kulturschaffender!.prosCons),
+        ]),
+        SizedBox(height: 10),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text(
+            'Typische Waffe: ',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          Text(kulturschaffender!.typischeWaffe),
+        ]),
+        SizedBox(height: 10),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text(
+            'Typische Rüstung: ',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          Text(kulturschaffender!.typischeRuestung),
+        ]),
+        SizedBox(height: 10),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text(
+            'Magie: ',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          Text(kulturschaffender!.magie),
+        ]),
+        SizedBox(height: 10),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text(
+            'Besonderheiten: ',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          Text(kulturschaffender!.besonderheiten),
+        ]),
+        SizedBox(height: 10),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text(
+            'Veränderung nach Herkunft: ',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          Text(kulturschaffender!.veraenderungNachHerkunft),
+        ]),
+        SizedBox(height: 10),
+        Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text(
+            'Quelle: ',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          Text(kulturschaffender!.quelle),
+        ]),
       ],
     );
   }
